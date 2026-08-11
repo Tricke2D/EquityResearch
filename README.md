@@ -23,7 +23,7 @@ Alat bantu analisis laporan keuangan yang menggunakan AI untuk menghitung rasio 
 
 ### Dengan Docker (Recommended)
 ```bash
-git clone https://github.com/yourusername/equity-research-agent.git
+git clone https://github.com/Tricke2D/equity-research-agent.git
 cd equity-research-agent
 
 docker-compose up -d
@@ -158,23 +158,23 @@ Investment Memo + Footnote
 ┌────────────────▼────────────────────────────────────────────────┐
 │                   Backend (Python/Poetry)                       │
 ├─────────────────────────────────────────────────────────────────┤
-│  ┌──────────────┐  ┌──────────────┐  ┌─────────────────────┐  │
-│  │ PDF Extract  │  │ Schema Map   │  │ Ratio Calculator    │  │
-│  │              │  │              │  │ • ROE               │  │
-│  │ • pdfplumber │  │ • BS Finder  │  │ • Debt-to-Equity    │  │
-│  │ • camelot    │  │ • IS Finder  │  │ • P/E Ratio         │  │
-│  │              │  │ • Pydantic   │  │ • Current Ratio     │  │
-│  └──────────────┘  └──────────────┘  │ • Net Margin        │  │
-│                                       │ • Revenue Growth    │  │
-│  ┌──────────────┐  ┌──────────────┐  └─────────────────────┘  │
-│  │ Agent Plan   │  │ Memo Gen     │                           │
-│  │              │  │              │  ┌─────────────────────┐  │
-│  │ • Ollama LLM │  │ • Draft      │  │ Verification Pass   │  │
-│  │ • JSON out   │  │ • Footnotes  │  │                     │  │
-│  │              │  │              │  │ • Claim matcher     │  │
-│  └──────────────┘  └──────────────┘  │ • Block orphan #    │  │
-│                                       └─────────────────────┘  │
-└────────────────────────────────────────────────────────────────┘
+│  ┌──────────────┐  ┌──────────────┐  ┌─────────────────────┐    │
+│  │ PDF Extract  │  │ Schema Map   │  │ Ratio Calculator    │    │
+│  │              │  │              │  │ • ROE               │    │
+│  │ • pdfplumber │  │ • BS Finder  │  │ • Debt-to-Equity    │    │
+│  │ • camelot    │  │ • IS Finder  │  │ • P/E Ratio         │    │
+│  │              │  │ • Pydantic   │  │ • Current Ratio     │    │
+│  └──────────────┘  └──────────────┘  │ • Net Margin        │    │
+│                                      │ • Revenue Growth    │    │
+│  ┌──────────────┐  ┌──────────────┐  └─────────────────────┘    │
+│  │ Agent Plan   │  │ Memo Gen     │                             │
+│  │              │  │              │  ┌─────────────────────┐    │
+│  │ • Ollama LLM │  │ • Draft      │  │ Verification Pass   │    │
+│  │ • JSON out   │  │ • Footnotes  │  │                     │    │
+│  │              │  │              │  │ • Claim matcher     │    │
+│  └──────────────┘  └──────────────┘  │ • Block orphan #    │    │
+│                                      └─────────────────────┘    │
+└─────────────────────────────────────────────────────────────────┘
                  │
 ┌────────────────▼────────────────────────────────────────────────┐
 │      PostgreSQL 16 + pgvector                                   │
@@ -236,7 +236,7 @@ Investment Memo + Footnote
 ### Option 1: Docker Compose (Fastest)
 
 ```bash
-git clone https://github.com/yourusername/equity-research-agent.git
+git clone https://github.com/Tricke2D/equity-research-agent.git
 cd equity-research-agent
 
 # Start all services
@@ -681,7 +681,7 @@ poetry run pre-commit install  # Optional: setup git hooks
 
 **License:** MIT License (lihat `LICENSE` file)
 
-**Author:** [Nama Anda] — Project portofolio
+**Author:** Muhamad Syukron Zakka
 
 **Acknowledgments:**
 - [Ollama](https://ollama.ai) — Local LLM runtime
@@ -703,4 +703,4 @@ Punya pertanyaan atau issue?
 
 ---
 
-**Last updated:** August 2026 | [Star on GitHub](https://github.com/yourusername/equity-research-agent) ⭐
+**Last updated:** August 2026 | [Star on GitHub](https://github.com/Tricke2D/equity-research-agent) ⭐
