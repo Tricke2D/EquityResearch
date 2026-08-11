@@ -178,11 +178,11 @@ Investment Memo + Footnote
                  │
 ┌────────────────▼────────────────────────────────────────────────┐
 │      PostgreSQL 16 + pgvector                                   │
-│  ┌──────────┐  ┌──────────────┐  ┌──────────────────────────┐ │
-│  │ companies│  │financial_stmt│  │ citations               │ │
-│  └──────────┘  └──────────────┘  │ (embedding, citation)   │ │
-│                                   └──────────────────────────┘ │
-└────────────────────────────────────────────────────────────────┘
+│  ┌──────────┐  ┌──────────────┐  ┌──────────────────────────┐   │
+│  │ companies│  │financial_stmt│  │ citations                │   │
+│  └──────────┘  └──────────────┘  │ (embedding, citation)    │   │
+│                                  └──────────────────────────┘   │
+└─────────────────────────────────────────────────────────────────┘
 ```
 
 ### Data Flow
@@ -697,9 +697,9 @@ poetry run pre-commit install  # Optional: setup git hooks
 
 Punya pertanyaan atau issue?
 
-- **GitHub Issues:** [Create issue](https://github.com/yourusername/equity-research-agent/issues)
-- **Discussions:** [GitHub Discussions](https://github.com/yourusername/equity-research-agent/discussions)
-- **Email:** your-email@example.com
+- **GitHub Issues:** [Create issue](https://github.com/Tricke2D/equity-research-agent/issues)
+- **Discussions:** [GitHub Discussions](https://github.com/Tricke2D/equity-research-agent/discussions)
+- **Email:** mhdsyukronzakka@gmail.com
 
 ---
 
