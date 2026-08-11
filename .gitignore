@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+*.log
+
+# Poetry
+poetry.lock
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Uploaded files
+uploads/
+downloads/
+
+# Docker
+docker-compose.override.yml
+
+# OS
+Thumbs.db

@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "researchagent"
+version = "0.1.0"
+description = "Equity Research Agent - Anti-hallucination financial analysis"
+authors = ["Your Name <you@email.com>"]
+readme = "README.md"
+packages = [{include = "equity_research_agent", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pdfplumber = "^0.11.10"
+sqlalchemy = "^2.0.51"
+psycopg = {extras = ["binary"], version = "^3.3.4"}
+pydantic = "^2.13.4"
+python-dotenv = "^1.2.2"
+pytest = "^9.1.1"
+alembic = "^1.19.1"
+ollama = "^0.6.2"
+pgvector = "^0.5.0"
+camelot-py = {extras = ["cv"], version = "^2.0.0"}
+sentence-transformers = "^5.7.0"
+rapidfuzz = "^3.14.5"
+structlog = "^26.1.0"
+pymupdf = "^1.28.2"
+streamlit = "^1.61.1"
+pdf2image = "^1.17.0"
+jinja2 = "^3.1.6"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
